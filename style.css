@@ -1,0 +1,424 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    font-family: "Favorit", "Times New Roman", Times, serif;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url("crab-wine-food.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 14px;
+    left: 41px;
+    width: 77px;
+    height: 18px;
+}
+
+.header__heading {
+    font-family: "Favorit", "Times New Roman", Times, serif;
+    font-size: 64px;
+    color: #fff;
+    text-align: left;
+    max-width: 50%;
+    line-height: 64px;
+    margin-left: 41px;
+    margin-top: 20%;
+}
+
+.header__band {
+    background-color: #deb887;
+    height: fit-content;
+    height: -moz-fit-content;
+    display: flex;
+    width: calc(100% - 80px);
+    padding: 60px 40px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-top: 24px;
+}
+
+.band-content {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.band-content__number {
+    font-size: 60px;
+    margin-right: 18px;
+}
+
+.band-content__text {
+    font-size: 27px;
+}
+
+.header__link-down {
+    text-decoration: none;
+    align-self: center;
+    margin-top: 51px;
+}
+
+.header__container_empty {
+    width: 41px;
+    height: 24px;
+    background-image: url("./arrow.svg");
+}
+
+body {
+    background-color: #deb887;
+}
+
+.main {
+    height: fit-content;
+    height: -moz-fit-content;
+    display: flex;
+}
+
+.mobile-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    align-items: center;
+}
+
+.main__sidebar {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 14px;
+}
+
+.main__sidebar_sticky_true {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.main__content_sticky_true {
+    margin-left: 33%;
+}
+
+.main__content {
+    width: calc(67%);
+    background-color: #fff;
+    padding: 120px 0px 319px 0px;
+    font-size: 40px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.subcontent__text-piece {
+    font-family: "Wremena";
+    font-size: 24px;
+    margin-bottom: 24px;
+    max-width: 450px;
+}
+
+.list_unordered {
+    list-style: none;
+    margin-top: 120px;
+}
+
+.navigation-list__item {
+    margin-bottom: 32px;
+    font-size: 27px;
+    max-width: 250px;
+}
+
+.list__navigation_link {
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}
+
+.list__navigation_link:hover {
+    font-weight: bold;
+}
+
+.subcontent__header {
+    font-size: 40px;
+    max-width: 450px;
+}
+
+.subcontent__subheader {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    max-width: 450px;
+}
+
+.subcontent {
+    margin-top: 120px;
+    margin-left: 136px;
+    margin-right: 136px;
+}
+
+.subcontent:first-child {
+    margin-top: 0;
+}
+
+.subcontent__text-info {
+    margin-top: 40px;
+}
+
+.subcontent__link {
+    text-decoration: none;
+    color: #0047ff;
+}
+
+.subcontent-case {
+    background-color: #fff;
+    padding: 120px 39px;
+    margin-top: 120px;
+}
+
+.case-subheader {
+    margin-left: 97px;
+}
+
+.subcontent-case__content {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.subcontent-case__case-card {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subcontent-case__case-image {
+    width: 347px;
+    height: 300px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.subcontent-case__case-image:hover div {
+    color: red;
+}
+
+.subcontent-case__case-image:nth-child(2n-1) {
+    margin-right: 40px;
+}
+
+.subcontent-case__case-text {
+    font-size: 24px;
+    font-weight: normal;
+    max-width: 250px;
+}
+
+.main__logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 40px;
+} 
+
+.main__btn_sticky_true {
+    position: fixed;
+    top: 14px;
+    right: 40px;
+    z-index: 20;
+}
+
+.apply-btn_mobile {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url("crab-wine-food.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 14px;
+    left: 41px;
+    width: 77px;
+    height: 18px;
+}
+
+.header__heading {
+    font-family: "Favorit", "Times New Roman", Times, serif;
+    font-size: 64px;
+    color: #fff;
+    text-align: left;
+    max-width: 50%;
+    line-height: 64px;
+    margin-left: 41px;
+    margin-top: 20%;
+}
+
+.header__band {
+    background-color: #deb887 (210, 180, 140);
+    height: fit-content;
+    height: -moz-fit-content;
+    display: flex;
+    width: calc(100% - 80px);
+    padding: 60px 40px;
+    overflow-x: scroll;
+    white-space: nowrap;
+    margin-top: 24px;
+}
+
+.band-content {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.band-content__text {
+    font-size: 27px;
+}
+
+.header__link-down {
+    text-decoration: none;
+    align-self: center;
+    margin-top: 51px;
+}
+
+.header__container_empty {
+    width: 41px;
+    height: 24px;
+    background-image: url("./arrow.svg");
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.container input {
+    display: none;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 60px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.container:hover input~.checkmark {
+    background-color: #333333;
+}
+
+.container input:checked~.checkmark {
+    background-color: #cacaca;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+    transform: translateX(35px);
+    transition: transform 0.8s ease;
+    background-color: white;
+}
+
+.container .checkmark:after {
+    left: 5px;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: transform 0.8s ease;
+}
+
+.theme-container {
+    position: fixed;
+    right: 60px;
+    top: 15px;
+    z-index: 100;
+}
+
+.dark-mode .main__sidebar>.navigation-list {
+    filter: invert(1) !important;
+    transition: filter 0.5s ease;
+}
+
+.dark-mode .main__content {
+    color: white;
+    background-color: gray;
+    transition: filter 0.5s ease;
+}
+
+.dark-mode .main__sidebar {
+    background-color: dimgray;
+    height: 100vh;
+}
+
+.dark-mode {
+    position: relative;
+}
+
+.dark-mode .apply-btn {
+    border-color: #fff;
+    color: #fff;
+    background-color: ;
+}
+
+.dark-mode .header__band {
+    background-color: #808080;
+    color: white !important;
+}
+
+.dark-mode .subcontent-case {
+    background-color: #808080;
+}
